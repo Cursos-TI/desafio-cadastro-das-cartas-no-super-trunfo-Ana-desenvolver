@@ -7,12 +7,20 @@
 //Teste larissa
 
 int main() {
-    // Desafio Super Trunfo - Países
+  
     printf("Desafio Super Trunfo\n");
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    // O jogo será composto por oito Estados, para cada Estado quatro cidades.
+    // Os Estados serão definidos com letras de A - H.
+    // Cada cidade terá suas variáveis e seus atributos respectivos.
+    // Exemplos de atributos: Estado,código da carta, nome da cidade, população, área em km, PIB, número de pontos turísticos.
+    printf("1 - Cadastrar cartas\n");
     
-    // Cadastro das Cartas:
+    // Cadastro e Declaração das Variáveis
+    char Estado= 'A';
+    char Código da Carta [20]= "A01";
+
+    
+
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
