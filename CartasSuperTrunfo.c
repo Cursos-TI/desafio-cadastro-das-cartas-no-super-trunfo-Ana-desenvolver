@@ -4,22 +4,27 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+// O jogo será composto por oito Estados, para cada Estado quatro cidades.
+ // Os Estados serão definidos com letras de A - H.
+// Cada cidade terá suas variáveis e seus atributos respectivos.
+// Exemplos de atributos: Estado,código da carta, nome da cidade, população...
 
 int main() {
   
     printf("Desafio Super Trunfo\n");
-    // O jogo será composto por oito Estados, para cada Estado quatro cidades.
-    // Os Estados serão definidos com letras de A - H.
-    // Cada cidade terá suas variáveis e seus atributos respectivos.
-    // Exemplos de atributos: Estado,código da carta, nome da cidade, população, área em km, PIB, número de pontos turísticos.
     printf("1 - Cadastrar cartas\n");
-    
-    // Cadastro e Declaração das Variáveis
-    char Estado= 'A';
-    char Código da Carta [20]= "A01";
+
+    // Declaração das Variáveis
+    char estado[50]; // Armazena o nome do Estado (até 49 caracteres)
+    char nomeCidade[50]; // Armazena o nome da cidade (até 49 caracteres)
+    char códigoCarta; // Armazena o código da carta 
+    int população = 720000; // População fixa
+    int pontosTurísticos = 10; // Números de pontos turísticos fixos
+    float área = 650.916; // Área fixa em km²
+    float pib = 36000000.0; // PIB fixo
 
     
+
 
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
