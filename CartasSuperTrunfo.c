@@ -5,7 +5,7 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 // O jogo será composto por oito Estados, para cada Estado quatro cidades.
- // Os Estados serão definidos com letras de A - H.
+// Os Estados serão definidos com letras de A - H.
 // Cada cidade terá suas variáveis e seus atributos respectivos.
 // Exemplos de atributos: Estado,código da carta, nome da cidade, população...
 
@@ -15,13 +15,13 @@ int main() {
     printf("1 - Cadastrar cartas\n");
 
     // Declaração das Variáveis
-    char estado[50]; // Armazena o nome do Estado (até 49 caracteres)
-    char nomeCidade[50]; // Armazena o nome da cidade (até 49 caracteres)
-    char códigoCarta; // Armazena o código da carta 
-    int população = 720000; // População fixa
-    int pontosTurísticos = 10; // Números de pontos turísticos fixos
-    float área = 650.916; // Área fixa em km²
-    float pib = 36000000.0; // PIB fixo
+    char estado_A[50]; // Armazena o nome do Estado (até 49 caracteres)
+    char nomeCidade_A1[50]; // Armazena o nome da cidade (até 49 caracteres)
+    char códigoCarta[] = "A01"; // Código da carta fixo
+    int população_A1; // Armazena a população da cidade
+    int pontosTurísticos_A1; // Números de pontos turísticos
+    float área_A1; // Armazena a Área em km²
+    float pib_A1; // Armazena o PIB 
 
     
 
