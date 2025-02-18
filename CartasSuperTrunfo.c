@@ -5,7 +5,7 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // O jogo será composto por oito Estados, para cada Estado quatro cidades.
 // Os Estados serão definidos com letras de A - H.
-// O código das cartas será definido por números de 1-4 acompanhado da letra correspondente ao Estado.
+// Cada carta terá seu código e será definido por números de 1-4 acompanhado da letra correspondente ao Estado.
 // Cada cidade terá suas variáveis e seus atributos respectivos.
 // Exemplos de atributos: Estado,código da carta, nome da cidade, população...
 
@@ -44,10 +44,22 @@ int main() {
 
     // Cadastrar a área da cidade A1
     printf("Digite a área da cidade A1:\n");
-    scanf("%f", &area_A1);  // Lê a área em km² da cidade (sem espaços)
+    scanf("%f", &area_A1);  // Lê a área da cidade (sem espaços)
+
+    // Cadastrar o PIB da cidade A1
+    printf("Digite o pib da cidade A1:\n");
+    scanf("%f", &pib_A1);  // Lê o PIB da cidade (sem espaços)
+
+    // Exibe as informações dos dados das cartas (com valores fixos e entradas do usuário)
+    printf("\nInformações da cidade:\n");
+    printf("Estado: %s\n", estado_A);
+    printf("Nome: %s\n", nomeCidade_A1);
+    printf("Código da Carta: %s\n", codigoCarta);
+    printf("População: %d habitantes\n", populacao_A1);
+    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos_A1);
+    printf("Área: %.2f km²\n", area_A1);
+    printf("PIB: %.2f\n", pib_A1);
 
     return 0;  // Indica que o programa foi executado com sucesso
-    
-    
-    
+       
 }
