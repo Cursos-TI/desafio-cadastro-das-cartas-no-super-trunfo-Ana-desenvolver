@@ -64,13 +64,8 @@ int main() {
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f\n", pib);
 
-    return 0;  // Indica que o programa foi executado com sucesso
-       
-}
-
-int main() {
-  
-
+    
+    
     printf("Cadastro - segunda carta\n");
 
     // Declaração das Variáveis
