@@ -64,8 +64,10 @@ int main() {
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f\n", pib);
 
-    
-    
+    system("CLS");
+    system("pause");
+
+
     printf("Cadastro - segunda carta\n");
 
     // Declaração das Variáveis
