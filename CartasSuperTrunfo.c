@@ -14,7 +14,7 @@ int main() {
     printf("Bem vindo ao Desafio Super Trunfo\n");
     
     // Cadastro - primeira carta
-    
+
     // Declaração das Variáveis
     char estado[50]; // Armazena o nome do Estado (até 49 caracteres)
     char nomeCidade[50]; // Armazena o nome da cidade (até 49 caracteres)
