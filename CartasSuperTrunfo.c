@@ -64,20 +64,14 @@ int main() {
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f\n", pib);
 
-    system("CLS");
-    system("pause");
+    //system("cls");
+   // system("pause");
+
 
 
     printf("Cadastro - segunda carta\n");
 
-    // Declaração das Variáveis
-    char estado[50]; // Armazena o nome do Estado (até 49 caracteres)
-    char nomeCidade[50]; // Armazena o nome da cidade (até 49 caracteres)
-    char codigoCarta[10]; // Armazena o código da carta
-    int populacao; // Armazena a população da cidade
-    int pontosTuristicos; // Números de pontos turísticos
-    float area; // Armazena a Área em km²
-    float pib; // Armazena o PIB 
+    
 
    // Cadastrar Estado de A -  H
     printf("Digite a letra do segundo estado:\n");
