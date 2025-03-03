@@ -23,6 +23,8 @@ int main() {
     float area; // Armazena a Área em km²
     float pib; // Armazena o PIB 
 
+    printf(" carta 1:\n");
+
    // Cadastrar Estado de A -  H
     printf("Digite a letra do primeiro estado:\n");
     scanf("%s", &estado);  // Lê o nome da primeira letra do estado  (sem espaços)
@@ -32,7 +34,6 @@ int main() {
     scanf("%s", &nomeCidade);  // Lê o nome da primeira cidade do primeiro estado (sem espaços)
     
    // Cadastrar o código da carta (Contendo números de 1 - 4 e a letra correspondente ao primeiro estado) 
-     printf("1 carta:\n");
      printf("Digite o código da carta (primeira cidade do primeiro estado):\n");
      scanf("%s", &codigoCarta);
 
@@ -64,14 +65,19 @@ int main() {
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f\n", pib);
 
-    //system("cls");
-   // system("pause");
-
-
 
     printf("Cadastro - segunda carta\n");
-
     
+    // Declaração das Variáveis para a segunda carta
+    char estado2[50]; // Armazena o nome do Estado (até 49 caracteres)
+    char nomeCidade2[50]; // Armazena o nome da cidade (até 49 caracteres)
+    char codigoCarta2[10]; // Armazena o código da carta
+    int populacao2; // Armazena a população da cidade
+    int pontosTuristicos2; // Números de pontos turísticos
+    float area2; // Armazena a Área em km²
+    float pib2; // Armazena o PIB 
+
+    printf("carta 2:\n");
 
    // Cadastrar Estado de A -  H
     printf("Digite a letra do segundo estado:\n");
@@ -81,9 +87,9 @@ int main() {
     printf("Digite o nome da primeira cidade do segundo estado:\n");
     scanf("%s", &nomeCidade);  // Lê o nome da primeira cidade do segundo estado (sem espaços)
     
-     // Cadastrar o código da carta (Contendo números de 1 - 4 e a letra correspondente ao primeiro estado) 
-     printf("1 carta:\n");
+     // Cadastrar o código da carta (Contendo números de 1 - 4 e a letra correspondente ao segundo estado) 
      printf("Digite o código da carta (primeira cidade do segundo estado):\n");
+     
      printf("codigoCarta %s - Cadastrada!\n", codigoCarta);
     
      // Cadastrar a população da cidade 
