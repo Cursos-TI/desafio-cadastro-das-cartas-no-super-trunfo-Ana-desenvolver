@@ -64,7 +64,6 @@ int main() {
     // Calcule o pib per capita da primeira cidade
     pibpercapita = pib / populacao;
     
-  
    // Exibe as informações dos dados das cartas (com valores de entradas do usuário)
     printf("\nInformações da cidade:\n");
     printf("Estado: %s\n", estado);
@@ -90,6 +89,8 @@ printf("\n");
     int pontosTuristicos2; // Números de pontos turísticos
     float area2; // Armazena a Área em km²
     float pib2; // Armazena o PIB 
+    float densidadepopulacional2; // Armazena o número de habitantes por km²
+    float pibpercapita2; // Armazena a média de riqueza por pessoa
 
     printf("carta 2:\n");
 
@@ -123,6 +124,13 @@ printf("\n");
     printf("Digite o pib da primeira cidade do segundo estado:\n");
     scanf("%f", &pib2);  // Lê o PIB da primeira cidade do segundo estado (sem espaços)
 
+    // Calcule a densidade populacional da primeira cidade do segundo estado
+    densidadepopulacional2 = populacao2 / area2;
+    
+    // Calcule o pib per capita da primeira cidade do segundo estado
+    pibpercapita2 = pib2 / populacao2;
+
+
     // Exibe as informações dos dados das cartas (com valores de entradas do usuário)
     printf("\nInformações da primeira cidade do segundo estado:\n");
     printf("Estado: %s\n", estado2);
@@ -132,6 +140,8 @@ printf("\n");
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f\n", pib2);
+    printf(" Densidade populacional: %.2f habitantes por km²\n", densidadepopulacional2);
+    printf("PIB per capita: %.2f", pibpercapita2);
 
     return 0;  // Indica que o programa foi executado com sucesso
        
